@@ -1,0 +1,58 @@
+/* Stel de hoogte van de body in op volledige schermhoogte */
+body {
+    min-height: 100vh;
+}
+
+/* Stijl het logo in donkere navigatiebalk */
+.navbar-dark .navbar-brand {
+    color: rgb(241, 94, 241);
+}
+
+/* Stijl knoppen binnen het element met ID "verzendbtn" */
+.btn {
+    background-color: rgb(150, 0, 125);
+    color: rgb(255, 166, 246);
+}
+
+/* Stel lettergrootte van bijschriften in */
+.figure-caption {
+    font-size: 1em;
+}
+
+/* Stel minimale hoogte van de footer in */
+footer {
+    min-height: 200px;
+}
+
+/* Media queries voor responsief ontwerp */
+@media (max-width: 768px) {
+
+    /* Pas lettergrootte van bijschriften aan voor kleinere schermen */
+    .figure-caption {
+        font-size: 0.875em;
+    }
+}
+
+@media (max-width: 576px) {
+    .figure-caption {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 386px) {
+    .figure-caption {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 288px) {
+    .figure-caption {
+        font-size: 0.4em;
+    }
+}
+
+@media (max-width: 190px) {
+    .figure-caption {
+        font-size: 0.3em;
+    }
+}
